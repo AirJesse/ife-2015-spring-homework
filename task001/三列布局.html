@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #left {
+            height: 100%;
+            width: 200px;
+            border: 2px solid royalblue;
+            float: left;
+            margin-right: -100% ;
+            /*position: absolute;*/
+        }
+        #mid {
+            height: 100%;
+            width: 100%;
+            border: 2px solid red;
+            float: left;
+        }
+        #right {
+            height: 100%;
+            width: 200px;
+            float: left;
+            border: 2px solid green;
+            margin-left: -204px;
+        }
+        #context {
+            margin: 0 204px;
+            background: lightpink;
+        }
+
+        .auto {
+        }
+
+        #foot {
+            clear: left;
+        }
+        #box {
+            background: darkgreen;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="box" >
+        <div id="left" class="auto"></div>
+        <div id="mid" class="auto">
+            <div id="context">
+                这里面是内容
+            </div>
+        </div>
+        <div id="right" class="auto"><p>bbbbb</p>aaaa</div>
+    </div>
+
+    <div id="foot">这是页脚</div>
+</body>
+</html>
