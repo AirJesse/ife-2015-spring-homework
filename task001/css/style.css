@@ -1,0 +1,63 @@
+ul{
+    margin: 0px;
+}
+
+body{
+    margin: 0;
+}
+#github-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+
+
+.header {
+    height: 80px;
+    background-color: darkmagenta;
+    position: relative;
+}
+
+.content-header {
+    width: 980px;
+    bottom: 5px;
+    position: absolute;
+    margin-left: 50%;
+    left: -490px;
+}
+
+.nav {
+    float: right;
+    font-size: 14px;
+    font-family: 宋体;
+    word-spacing: 28px;
+
+}
+
+.nav-ul>li {
+    display: inline-block;
+}
+.banner img{
+    width: 100%;
+}
+
+.banner-text-wrap {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    color: white;
+}
+
+.content-banner {
+    position: absolute;
+    width: 300px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px 10px 30px 10px;
+    background:linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%) repeat scroll 0% 0%;
+}
+.content-banner p{
+    font-size: 12px;
+
+}
